@@ -21,7 +21,7 @@
   "fallback_url": "https://turkmenistanairlines.tm",
   "fallback_timeout_sec": 5,
   "sleep_between": 10,
-  "max_alloc_retries": 10,
+  "max_alloc_retries": 3,
   "retry_sleep_sec": 5,
   "slow_check_host": "119.235.120.103",
   "slow_check_port": 443,
