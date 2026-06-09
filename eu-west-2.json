@@ -25,7 +25,7 @@
   "retry_sleep_sec": 5,
   "slow_check_host": "119.235.120.103",
   "slow_check_port": 443,
-  "slow_check_count": 60,
+  "slow_check_count": 40,
   "slow_check_timeout_sec": 0.9,
   "slow_check_trigger_timeouts": 5,
   "slow_check_interval_sec": 0.0
