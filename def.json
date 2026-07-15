@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "availability_check": true,
+  "primary_ping_check": true,
+  "secondary_ping_check": true,
+  "fallback_http_check": true,
+  "slow_check": false,
+  "rotate_on_availability_fail": true,
+  "rotate_on_slow_check": true,
+  "rotate_on_http_read_timeout": false,
+  "update_remna_after_rotation": true,
+  "cleanup_static_ips_after_success": true,
+  "telegram_notifications": true,
+  "needed_ip_prefixes": [
+    "*"
+  ],
+  "ping_host_primary": "telecom.tm",
+  "ping_host_secondary": "693c.cloudtaxi.ru",
+  "ping_count": 3,
+  "ping_timeout_sec": 3,
+  "fallback_url": "https://turkmenistanairlines.tm",
+  "fallback_timeout_sec": 5,
+  "sleep_between": 10,
+  "max_alloc_retries": 3,
+  "retry_sleep_sec": 5,
+  "slow_check_host": "119.235.120.103",
+  "slow_check_port": 443,
+  "slow_check_count": 50,
+  "slow_check_timeout_sec": 0.9,
+  "slow_check_trigger_timeouts": 5,
+  "slow_check_interval_sec": 0.0
+}
