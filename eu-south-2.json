@@ -14,7 +14,7 @@
   "needed_ip_prefixes": [
     "*"
   ],
-  "ping_host_primary": "telecom.tm",
+  "ping_host_primary": "95.85.125.14",
   "ping_host_secondary": "693c.cloudtaxi.ru",
   "ping_count": 3,
   "ping_timeout_sec": 3,
