@@ -14,11 +14,11 @@
   "needed_ip_prefixes": [
     "*"
   ],
-  "ping_host_primary": "telecom.tm",
-  "ping_host_secondary": "693c.cloudtaxi.ru",
+  "ping_host_primary": "95.85.125.14",
+  "ping_host_secondary": "217.174.238.184",
   "ping_count": 3,
   "ping_timeout_sec": 3,
-  "fallback_url": "https://turkmenistanairlines.tm",
+  "fallback_url": "https://nonexistent.blok",
   "fallback_timeout_sec": 5,
   "sleep_between": 10,
   "max_alloc_retries": 3,
@@ -27,6 +27,6 @@
   "slow_check_port": 443,
   "slow_check_count": 50,
   "slow_check_timeout_sec": 0.9,
-  "slow_check_trigger_timeouts": 4,
+  "slow_check_trigger_timeouts": 5,
   "slow_check_interval_sec": 0.0
 }
