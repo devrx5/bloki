@@ -4,7 +4,7 @@
   "primary_ping_check": true,
   "secondary_ping_check": true,
   "fallback_http_check": true,
-  "slow_check": false,
+  "slow_check": true,
   "rotate_on_availability_fail": true,
   "rotate_on_slow_check": true,
   "rotate_on_http_read_timeout": false,
@@ -27,6 +27,6 @@
   "slow_check_port": 443,
   "slow_check_count": 50,
   "slow_check_timeout_sec": 0.9,
-  "slow_check_trigger_timeouts": 8,
+  "slow_check_trigger_timeouts": 5,
   "slow_check_interval_sec": 0.0
 }
