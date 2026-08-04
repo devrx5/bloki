@@ -4,7 +4,7 @@
   "primary_ping_check": true,
   "secondary_ping_check": true,
   "fallback_http_check": true,
-  "slow_check": false,
+  "slow_check": true,
   "rotate_on_availability_fail": true,
   "rotate_on_slow_check": true,
   "rotate_on_http_read_timeout": false,
